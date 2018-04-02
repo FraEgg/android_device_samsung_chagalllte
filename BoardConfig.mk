@@ -61,7 +61,7 @@ BOARD_SEPOLICY_DIRS += device/samsung/chagalllte/sepolicy
 TARGET_RELEASETOOL_OTA_FROM_TARGET_SCRIPT := device/samsung/chagalllte/releasetools/ota_from_target_files
 
 # Cyanogen Hardware
-BOARD_HARDWARE_CLASS := $(COMMON_PATH)/cmhw
+BOARD_HARDWARE_CLASS := $(COMMON_PATH)/lineagehw
 
 # Audio
 TARGET_AUDIOHAL_VARIANT := samsung
