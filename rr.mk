@@ -4,13 +4,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/telephony.mk)
 
 $(call inherit-product, device/samsung/chagalllte/device.mk)
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk)
+# Inherit some common RR stuff.
+$(call inherit-product, vendor/rr/config/common_full_tablet_wifionly.mk)
 
-# Inherit more LineageOS stuff.
-$(call inherit-product, vendor/cm/config/telephony.mk)
+# Inherit more RR stuff.
+$(call inherit-product, vendor/rr/config/telephony.mk)
 
-PRODUCT_NAME := lineage_chagalllte
+PRODUCT_NAME := rr_chagalllte
 PRODUCT_DEVICE := chagalllte
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
