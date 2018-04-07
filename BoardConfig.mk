@@ -34,10 +34,6 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(LOCAL_PATH)/bluetooth
 # Bootloader
 TARGET_OTA_ASSERT_DEVICE := chagalllte
 
-# Releasetools
-TARGET_RELEASETOOLS_EXTENSIONS := device/samsung/chagalllte/releasetools
-##TARGET_BOARD_INFO_FILE ?= device/samsung/chagalllte/board-info.txt
-
 # Clang
 USE_CLANG_PLATFORM_BUILD := true
 
@@ -49,7 +45,7 @@ BOARD_CUSTOM_BOOTIMG := true
 TARGET_SPECIFIC_HEADER_PATH := $(LOCAL_PATH)/include
 
 # Cyanogen Hardware
-BOARD_HARDWARE_CLASS := $(LOCAL_PATH)/cmhw
+BOARD_HARDWARE_CLASS := $(LOCAL_PATH)/lineagehw
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 8388608

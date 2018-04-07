@@ -7,8 +7,8 @@ $(call inherit-product, device/samsung/chagalllte/device.mk)
 # Inherit some common RR stuff.
 $(call inherit-product, vendor/rr/config/common_full_tablet_wifionly.mk)
 
-# Inherit more RR stuff.
-$(call inherit-product, vendor/rr/config/telephony.mk)
+## Inherit more RR stuff.
+#$(call inherit-product, vendor/rr/config/telephony.mk)
 
 PRODUCT_NAME := rr_chagalllte
 PRODUCT_DEVICE := chagalllte
